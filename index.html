@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>Food </title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css"> 
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="/fotter.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<a href="index.html" class="logo"><img src="img/food1.png" alt="logo"></a>
+			
+			<input type="text" class="input input-addres" placeholder="Delivery Address">
+			<div class="buttons">
+				<button class="button button-primary">
+					<img src="img/user.svg" alt="user" class="button-icon">
+					<span class="button-text"><a href="/dem.html">Login</a></span>
+				</button><button class="button button-primary">
+					<img src="img/user.svg" alt="user" class="button-icon">
+					<span class="button-text"><a href="/demo.html">Signup</a></span>
+				</button>
+				<?php
+        // $count=0;
+        // if(isset($_SESSION['cart']))
+        // {
+        //   $count=count($_SESSION['cart']);
+        // }
+        ?>
+				<!-- <button class="button" id="cart-button">
+					<img src="img/shopping-cart.svg" alt="shopping cart" class="button-icon">
+					<span class="button-text">Basket</span>  
+				</button> -->
+				<button class="button" id="cart-button">
+					<!-- <img src="img/shopping-cart.svg" alt="shopping cart" class="button-icon"> -->
+					<a href="mycart.html" class="button-icon" id="cart-button">My Cart </a>
+					<!-- <span class="button-text"> Basket</span>   -->
+				
+				</button>
+			</div>
+		</header>
+	</div>
+
+	<main class="main">
+		<div class="container">
+			<section class="promo">
+			<h1 class="promo-title">Online home delivery service<br></h1>
+			<p class="promo-text">
+				Dishes from your favorite restaurant will be brought by a courier wearing gloves, a mask and an antiseptic
+			</p>	
+		</section>
+
+		<section class="restaurantas">
+			<div class="section-heading">
+				<h2 class="section-title"><marquee>Restaurants</marquee></h2>
+				<input type="" class="input input-search" placeholder="Search for dishes and restaurants">
+			</div>
+			<div class="cards">
+				<a href="restaurant1.html" class="card">
+					<img src="img/p.jpeg" class="card-img">
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title">PIZZA PLUS</h3>
+							<span class="card-tag tag">30 min</span>
+						</div>
+						<div class="card-info">
+							<div class="raiting">
+								<img src="img/star.svg" alt="raiting" class="raiting-star">
+								4.5
+							</div>
+							<div class="price">From 500 ₹</div>
+							<div class="category">Pizza</div>
+						</div>	
+					</div>
+				</a>
+				<a href="restaurant.html" class="card">
+					<img src="img/card-zadina.jpg" class="card-img">
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title">Tanuki</h3>
+							<span class="card-tag tag">20 min</span>
+						</div>
+						<div class="card-info">
+							<div class="raiting">
+								<img src="img/star.svg" alt="raiting" class="raiting-star">
+								4.7
+							</div>
+							<div class="price">From 500 ₹</div>
+							<div class="category">Sushi</div>
+						</div>
+					</div>
+				</a>
+				<a href="restaurant3.html" class="card">
+					<img src="img/southern.jpeg" class="card-img">
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title">Southern Tadka</h3>
+							<span class="card-tag tag">40 min</span>
+						</div>
+						<div class="card-info">
+							<div class="raiting">
+								<img src="img/star.svg" alt="raiting" class="raiting-star">
+								4.3
+							</div>
+							<div class="price">From 500 ₹</div>
+							<div class="category">Idli/Dosa</div>
+						</div>	
+					</div>
+				</a>
+				<a href="restaurant4.html" class="card">
+					<img src="img/fries.jpeg" class="card-img">
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title">The Fries</h3>
+							<span class="card-tag tag">50 min</span>
+						</div>
+						<div class="card-info">
+							<div class="raiting">
+								<img src="img/star.svg" class="raiting-star">
+								4.0
+							</div>
+							<div class="price">From 400 ₹</div>
+							<div class="category">French Fries</div>
+						</div>	
+					</div>
+				</a>
+				<a href="restaurant5.html" class="card">
+					<img src="img/shahi.jpeg" class="card-img">
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title">Shahi Darbar</h3>
+							<span class="card-tag tag">50 min</span>
+						</div>
+						<div class="card-info">
+							<div class="raiting">
+								<img src="img/star.svg" alt="raiting" class="raiting-star">
+								4.8
+							</div>
+							<div class="price">From 400 ₹</div>
+							<div class="category">Biryani</div>
+						</div>	
+					</div>
+				</a>
+				<a href="restaurant6.html" class="card">
+					<img src="img/sponge.jpeg" class="card-img">
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title">Cake Show</h3>
+							<span class="card-tag tag">45 мин</span>
+						</div>
+						<div class="card-info">
+							<div class="raiting">
+								<img src="img/star.svg" alt="raiting" class="raiting-star">
+								4.2
+							</div>
+							<div class="price">From 600 ₹</div>
+							<div class="category">Bakery</div>
+						</div>	
+					</div>
+				</a>
+			</div>	
+		</section>
+		</div>
+		
+	</main>
+
+	<!-- <footer class="footer">
+		<div class="container">
+			<div class="footer-block">
+				<img src="img/logo.svg" alt="logo" class="logo footer-logo">
+				<nav class="footer-nav">
+					<a href="#" class="footer-link">Restaurants</a>
+					<a href="#" class="footer-link">Contacts</a>
+					<a href="#" class="footer-link"> About Us</a>
+				</nav>
+				<div class="social-links">
+					<a href="#" class="social-link"><img src="img/insta.svg" alt=""></a>
+					<a href="#" class="social-link"><img src="img/fb.svg" alt=""></a>
+					
+				</div>
+			</div>
+		</div> -->
+	<!-- </footer> -->
+
+<!-- new code -->
+<!-- <section class="footer">
+
+	<div class="box-container">
+
+		<div class="box">
+			<h3>address</h3>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sit debitis.</p>
+			<div class="share">
+				<a  href="https://www.google.com/photos/about/" src="img/food1.png" class="fab fa-facebook-f" ></a>
+				<a href="#" class="fab fa-twitter"></a>
+				<a href="#" class="fab fa-instagram"></a>
+				<a href="#" class="fab fa-linkedin"></a>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3>E-mail</h3>
+			<a href="#" class="link">bushrasiddique@gmail.com</a>
+			<a href="#" class="link">namiramomin@gmail.com</a>
+			<a href="#" class="link">sanafmomin@gmail.com</a>
+
+		</div>
+
+		<div class="box">
+			<h3>call us</h3>
+			<p>+61 (2) 1478 2322</p>
+			<p>+61 (2) 1478 2333</p>
+			<p>+61 (2) 1478 2344</p>
+		</div>
+
+		<div class="box">
+			<h3> opening hours</h3>
+			<p>Monday - Friday: 9:00 - 23:00 <br> Saturday: 8:00 - 24:00 </p>
+		</div>
+
+	</div>
+
+	<div class="credit"> <span></span> all rights reserved! </div>
+
+</section> -->
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col">
+				<h4>company</h4>
+				<ul>
+					<li><a href="#">about us</a></li>
+					<li><a href="#">our service</a></li>
+					<li><a href="#">privacy policy</a></li>
+					<li><a href="#">affiliate program</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>get help</h4>
+				<ul>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">shipping</a></li>
+					<li><a href="#">returns</a></li>
+					<li><a href="#">order status</a></li>
+					<li><a href="#">payment options</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>online shop</h4>
+				<ul>
+					<li><a href="#">biryani</a></li>
+					<li><a href="#">tanuki</a></li>
+					<li><a href="#">sourthern tadka</a></li>
+					<li><a href="#">Pizza</a></li>
+					<li><a href="#">fries</a></li>
+					<li><a href="#">Deserts</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>follow us</h4>
+				<div class="social links">
+					<a href="https://ibighit.com/bts/eng/"> <img src="/img/fb.svg" alt="logo"></a>
+					<br></br>
+					<a href="#"> <img src="/img/insta.svg" alt="logo"></a>
+					<!-- <a href="#"><i class="fab fa- instagram"</i></a>
+					<a href="#"><i class="fab fa- linkedin-in"</i></a> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- end end of  code -->
+
+		
+</body>
+</html>
